@@ -1,0 +1,113 @@
+
+/**
+ * @license
+ *
+ * Font Family: Supreme
+ * Designed by: Jérémie Hornus, Ilya Naumoff
+ * URL: https://www.fontshare.com/fonts/supreme
+ * © 2021 Indian Type Foundry
+ *
+ *
+*/
+
+
+@font-face {
+  font-family: 'Supreme-Thin';
+  src: url('../font/Supreme-Thin.woff2') format('woff2'),
+       url('../font/Supreme-Thin.woff') format('woff'),
+       url('../font/Supreme-Thin.ttf') format('truetype');
+       font-weight: 100;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Supreme-Extralight';
+  src: url('../font/Supreme-Extralight.woff2') format('woff2'),
+       url('../font/Supreme-Extralight.woff') format('woff'),
+       url('../font/Supreme-Extralight.ttf') format('truetype');
+       font-weight: 200;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Supreme-Light';
+  src: url('../font/Supreme-Light.woff2') format('woff2'),
+       url('../font/Supreme-Light.woff') format('woff'),
+       url('../font/Supreme-Light.ttf') format('truetype');
+       font-weight: 300;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Supreme-LightItalic';
+  src: url('../font/Supreme-LightItalic.woff2') format('woff2'),
+       url('../font/Supreme-LightItalic.woff') format('woff'),
+       url('../font/Supreme-LightItalic.ttf') format('truetype');
+       font-weight: 300;
+       font-display: swap;
+       font-style: italic;
+}
+
+@font-face {
+  font-family: 'Supreme-Regular';
+  src: url('../font/Supreme-Regular.woff2') format('woff2'),
+       url('../font/Supreme-Regular.woff') format('woff'),
+       url('../font/Supreme-Regular.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Supreme-Medium';
+  src: url('../font/Supreme-Medium.woff2') format('woff2'),
+       url('../font/Supreme-Medium.woff') format('woff'),
+       url('../font/Supreme-Medium.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Supreme-Bold';
+  src: url('../font/Supreme-Bold.woff2') format('woff2'),
+       url('../font/Supreme-Bold.woff') format('woff'),
+       url('../font/Supreme-Bold.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Supreme-Extrabold';
+  src: url('../font/Supreme-Extrabold.woff2') format('woff2'),
+       url('../font/Supreme-Extrabold.woff') format('woff'),
+       url('../font/Supreme-Extrabold.ttf') format('truetype');
+       font-weight: 800;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Audrey';
+	src: url('../font/Audrey-Normal.woff2') format('woff2'),
+			 url('../font/Audrey-Normal.woff') format('woff'),
+		   url('../font/Audrey-Normal.ttf') format('truetype');
+	font-weight: normal;
+	font-display: swap;
+	font-style: normal;
+}
+
+
+
+
+$Supreme-Thin: 'Supreme-Thin', Helvetica, Arial, sans-serif;
+$Audrey: 'Audrey', Helvetica, Arial, sans-serif;
